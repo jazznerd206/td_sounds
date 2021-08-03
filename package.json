@@ -1,0 +1,20 @@
+{
+  "name": "td_sounds",
+  "version": "1.0.0",
+  "description": "a sound board for Tay_Live",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazznerd206/td_sounds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazznerd206/td_sounds/issues"
+  },
+  "homepage": "https://github.com/jazznerd206/td_sounds#readme"
+}
