@@ -1,4 +1,15 @@
 import './App.css';
+import beepboop from '../src/audio/beepboop.wav';
+import heartbeat from '../src/audio/heartbeat.wav';
+import rocket from '../src/audio/rocket.wav';
+import transition from '../src/audio/transition.wav';
+import whoosh from '../src/audio/whoosh.wav';
+import airhorn from '../src/audio/airhorn.mp3';
+import alright from '../src/audio/alright.mp3';
+import whoawhoa from '../src/audio/whoawhoa.m4a';
+import trumpet from '../src/audio/trumpet.wav';
+import mm_img from '../src/images/mm.jpeg';
+import whoawhoa_img from '../src/images/whoawhoa.png';
 
 function App() {
 
@@ -6,57 +17,57 @@ function App() {
     {
       index: 0,
       name: 'beepboop',
-      location: '../audio/beepboop.wav',
+      location: beepboop,
       icon: "fas fa-bell fa-5x"
     },
     {
       index: 1,
       name: 'heartbeat',
-      location: '../audio/heartbeat.wav',
+      location: heartbeat,
       icon: "fas fa-heartbeat fa-5x"
     },
     {
       index: 2,
       name: 'rocket',
-      location: '../audio/rocket.wav',
+      location: rocket,
       icon: "fas fa-rocket fa-5x"
     },
     {
       index: 3,
       name: 'transition',
-      location: '../audio/transition.wav',
+      location: transition,
       icon: "fas fa-arrow-circle-right fa-5x"
     },
     {
       index: 4,
       name: 'trumpet',
-      location: '../audio/trumpet.wav',
+      location: trumpet,
       icon: "fas fa-chess-king fa-5x"
     },
     {
       index: 5,
       name: 'whoosh',
-      location: '../audio/whoosh.wav',
+      location: whoosh,
       icon: "fas fa-wind fa-5x"
     },
     {
       index: 6,
       name: 'airhorn',
-      location: '../audio/airhorn.mp3',
+      location: airhorn,
       icon: "fas fa-bullhorn fa-5x"
     },
     {
       index: 7,
       name: 'alright',
-      location: '../audio/alright.mp3',
-      image: "../images/mm.jpeg",
+      location: alright,
+      image: mm_img,
       mm: true
     },
     {
       index: 8,
       name: 'whoawhoa',
-      location: '../audio/whoawhoa.m4a',
-      image: "../images/whoawhoa.png",
+      location: whoawhoa,
+      image: whoawhoa_img,
       mm: true
     },
   ]
