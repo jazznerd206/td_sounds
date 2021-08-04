@@ -6,57 +6,57 @@ function App() {
     {
       index: 0,
       name: 'beepboop',
-      location: '/public/audio/beepboop.wav',
+      location: '../assets/audio/beepboop.wav',
       icon: "fas fa-bell fa-5x"
     },
     {
       index: 1,
       name: 'heartbeat',
-      location: '/public/audio/heartbeat.wav',
+      location: '../assets/audio/heartbeat.wav',
       icon: "fas fa-heartbeat fa-5x"
     },
     {
       index: 2,
       name: 'rocket',
-      location: '/public/audio/rocket.wav',
+      location: '../assets/audio/rocket.wav',
       icon: "fas fa-rocket fa-5x"
     },
     {
       index: 3,
       name: 'transition',
-      location: '/public/audio/transition.wav',
+      location: '../assets/audio/transition.wav',
       icon: "fas fa-arrow-circle-right fa-5x"
     },
     {
       index: 4,
       name: 'trumpet',
-      location: '/public/audio/trumpet.wav',
+      location: '../assets/audio/trumpet.wav',
       icon: "fas fa-chess-king fa-5x"
     },
     {
       index: 5,
       name: 'whoosh',
-      location: '/public/audio/whoosh.wav',
+      location: '../assets/audio/whoosh.wav',
       icon: "fas fa-wind fa-5x"
     },
     {
       index: 6,
       name: 'airhorn',
-      location: '/public/audio/airhorn.mp3',
+      location: '../assets/audio/airhorn.mp3',
       icon: "fas fa-bullhorn fa-5x"
     },
     {
       index: 7,
       name: 'alright',
-      location: '/public/audio/alright.mp3',
-      image: "/public/images/mm.jpeg",
+      location: '../assets/audio/alright.mp3',
+      image: "../assets/images/mm.jpeg",
       mm: true
     },
     {
       index: 8,
       name: 'whoawhoa',
-      location: '/public/audio/whoawhoa.m4a',
-      image: "/public/images/whoawhoa.png",
+      location: '../assets/audio/whoawhoa.m4a',
+      image: "../assets/images/whoawhoa.png",
       mm: true
     },
   ]
