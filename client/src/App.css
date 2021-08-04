@@ -48,3 +48,8 @@ img {
   height: 20vh;
   width: auto;
 }
+
+i,
+img {
+  pointer-events: none;
+}
